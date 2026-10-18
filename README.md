@@ -5,6 +5,7 @@ The MotorPH dashboard script reads the cleaned product catalog and sales CSVs, v
 It reads:
 - Cleaned products CSV
 - Cleaned Q3 sales CSV
+
 Before building the dashboard, it checks that required columns exist, removes exact duplicate rows, trims text values, converts dates and numeric fields, and removes sales rows that have missing or invalid required values.
 
 It also checks that:
